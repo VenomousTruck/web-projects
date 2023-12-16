@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M-376 -3523L-376 -3523L-376 -3503L-397 -3503L-397 -3523L-376 -3523Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <image width="21" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAMAAABVlYYBAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABklBMVEX/Vlb/////Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/Vlb/VlYAAACecn7lAAAAhHRSTlMAAAhOk9L2+/jWmFERAUTF4qh+bXyi3awNcNpdEA5hYwlYBHKgFF6HSKMc3loKxxWVa7vY/bRlneQSC8nvLc6x4CUFdZrxjF+GI3r5i7dUBnjjrijm7SpcA5f04bnoGwdVAt9iOfxv0c8W268dUlA4aoKSLoDMS0K/lFNujWSm9eqtZhc7uf3uAAAAAWJLR0SFFddq5wAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+QMEBAVAP97DM4AAAE6SURBVBjTTdHnV8JADADwlGEFARWLg4qjKoKIDEUqCCiKCxVxK7jFvfee+cNt7ik1X/Lud7l7uRwAhUar05fwpQZjmcnMKcHQUo4VldYqwVaNNbV/Wod2sZ5tOxoam5olpi3Y2gbFcGI7qQvdZhU7PMh3cuDtsvtUBD8Ggt0+0KL4Dy09Ic6CvRCW+1SMRPtjnDeegIEE3TaYZDqEgtLXcAr4EWU1Ko8Rjqfi1O5EGvhJ6nMKpwEyIXSBojNpyM5S1dz8wiIsYXiZdGUV3Dn2LBHzMfvaOii6EQ3CJp0F2LLhNu4A6W5hDxz7B6z48AiPM6RSPnsCcIp+1tVZ7pwSJ+AFTecSryJKkq4Jk1Y0splJN3h7p2H1yfsHfPT+Tv3JgHrdsxh4iaLntfgXYHK+yYV3/uPz65uQ+wGibTljcutyugAAAABJRU5ErkJggg==" id="img_1" />
+    <pattern patternUnits="objectBoundingBox" width="100%" height="100%" id="pattern_1">
+      <use xlink:href="#img_1" transform="scale(1,1)" />
+    </pattern>
+  </defs>
+  <g id="check_red 1" clip-path="url(#clip_1)">
+    <path d="M-376 -3523L-376 -3523L-376 -3503L-397 -3503L-397 -3523L-376 -3523Z" id="check_red-1" fill="none" stroke="none" />
+    <path d="M0 0L21 0L21 20L0 20L0 0Z" id="Layer-31-copy-7" fill="url(#pattern_1)" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

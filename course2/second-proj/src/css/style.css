@@ -1,0 +1,1217 @@
+/* line 1, ../../LaptopProjects/WebProjects/course2/2/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+header {
+  position: relative;
+}
+
+/* line 4, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+nav {
+  height: 50px;
+  background: #212121;
+}
+
+/* line 8, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 11, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 18, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 23, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted #000000;
+  padding-right: 28px;
+}
+
+/* line 27, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 30, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 36, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 41, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader_official {
+  opacity: 0.6;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 250;
+  margin-top: 6px;
+}
+
+/* line 48, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader_call {
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* line 55, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+/* line 65, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subheader_btn {
+  margin-top: 19px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  width: 162px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../LaptopProjects/WebProjects/course2/2/src/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 81, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 86, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.promo_header {
+  display: block;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+/* line 95, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.promo_subheader {
+  margin-top: 22px;
+  display: block;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+
+/* line 105, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 113, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  margin-top: 19px;
+  width: 259px;
+  height: 63px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -4px rgba(0, 0, 0, 0.12);
+  border: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../LaptopProjects/WebProjects/course2/2/src/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 132, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 135, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 141, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 151, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 154, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons_descr_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 160, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.reasons_descr_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 167, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.label {
+  position: relative;
+  padding: 5px 12px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  background: #000000;
+  width: 112px;
+  height: 24px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 183, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.label_white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 187, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 199, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.title_white {
+  color: #fff;
+}
+
+/* line 202, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 211, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 214, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../img/bg/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 219, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 222, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 230, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/card_1.png") center center/cover no-repeat;
+}
+
+/* line 233, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/card_2.png") center center/cover no-repeat;
+}
+
+/* line 236, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/card_3.png") center center/cover no-repeat;
+}
+
+/* line 239, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/card_4.png") center center/cover no-repeat;
+}
+
+/* line 242, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/card_5.png") center center/cover no-repeat;
+}
+
+/* line 245, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/card_6.png") center center/cover no-repeat;
+}
+
+/* line 248, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 255, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 35px;
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 271, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_plus::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.2s all;
+}
+
+/* line 279, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_plus::after {
+  content: "";
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.2s all;
+}
+
+/* line 291, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 294, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.auto {
+  position: relative;
+  padding: 56px 0 138px 0;
+  min-height: 895px;
+  background: url("../img/bg/white.png") center center/cover no-repeat;
+}
+
+/* line 300, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.auto .uber_auto {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 306, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.auto_descr {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 313, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.auto .black {
+  background: #070716;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 322, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 325, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 328, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0;
+}
+
+/* line 331, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 336, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 341, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 348, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 358, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require_descr {
+  color: #1ca8c3;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 365, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+  text-transform: uppercase;
+}
+
+/* line 371, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.require .warning .require_list li::before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+/* line 374, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.world {
+  position: relative;
+  min-height: 717px;
+  padding: 49px 0;
+  background: url("../img/bg/world_bg.png") center center/cover no-repeat;
+}
+
+/* line 380, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.world_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 395, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.world_link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 399, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 402, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+footer a {
+  text-decoration: none;
+}
+
+/* line 406, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_divider {
+  width: 300px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 412, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 418, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 421, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 426, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_wrapper > div .footer_mobile img {
+  width: 120px;
+}
+
+/* line 429, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 434, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 444, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_social_item i {
+  color: #fff;
+}
+
+/* line 448, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links {
+  margin: 0 auto;
+  width: 390px;
+}
+
+/* line 452, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 457, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links_main a {
+  text-transform: uppercase;
+  color: #070716;
+  font-weight: 300;
+}
+
+/* line 462, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 468, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links_sub a {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 474, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transfsorm: uppercase;
+  text-align: center;
+}
+
+/* line 483, ../../LaptopProjects/WebProjects/course2/2/src/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 6, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 9, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 12, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 15, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+  /* line 18, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 21, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 24, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto {
+    padding: 55px 0;
+    min-height: 840px;
+  }
+  /* line 29, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require br {
+    display: none;
+  }
+  /* line 33, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 36, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 39, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 44, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_mobile {
+    display: flex;
+  }
+  /* line 47, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  /* line 50, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_mobile a img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 54, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .title {
+    font-size: 28px;
+  }
+  /* line 57, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 60, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_link {
+    font-size: 11px;
+  }
+  /* line 64, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 67, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 70, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_call {
+    font-size: 11px;
+  }
+  /* line 73, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 76, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 21px;
+  }
+  /* line 82, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 85, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 89, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 93, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 96, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasonssubtitle {
+    margin-top: 20px;
+  }
+  /* line 99, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 20px;
+  }
+  /* line 102, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 107, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 111, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 16px;
+  }
+  /* line 114, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto {
+    padding: 55px 0;
+    min-height: 800px;
+  }
+  /* line 118, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto .uber_auto {
+    width: 100%;
+  }
+  /* line 121, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .world {
+    min-height: 650px;
+  }
+  /* line 125, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  /* line 128, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  /* line 134, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+  }
+  /* line 137, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 142, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .title {
+    margin-top: 25px;
+  }
+  /* line 144, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 157, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 160, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 165, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 167, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 176, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 185, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 188, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 191, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 194, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 196, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 198, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 201, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 210, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_btn {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto 0;
+    display: block;
+  }
+  /* line 216, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+  /* line 219, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons {
+    padding: 40px 0;
+  }
+  /* line 222, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_descr {
+    width: 350px;
+  }
+  /* line 225, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_subtitle {
+    text-align: center;
+  }
+  /* line 228, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 10px;
+  }
+  /* line 231, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile {
+    padding-top: 40px;
+  }
+  /* line 233, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto {
+    min-height: 600px;
+    padding: 40px 0;
+  }
+  /* line 236, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require {
+    padding: 40px 0;
+  }
+  /* line 238, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .world {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 243, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 246, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 249, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 254, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 11px;
+  }
+  /* line 259, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader {
+    top: 30px;
+    height: 60px;
+  }
+  /* line 263, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 266, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 269, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 275, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 281, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 284, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 288, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 291, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 296, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 302, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+    padding-bottom: 64px;
+  }
+  /* line 308, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 311, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 314, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 319, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 322, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 36px;
+  }
+  /* line 325, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 328, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 332, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 336, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+  /* line 340, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile .row {
+    margin-top: 32px;
+  }
+  /* line 343, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+    height: 280px;
+    margin-bottom: 21px;
+    padding-top: 92px;
+  }
+  /* line 349, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 18px;
+  }
+  /* line 351, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: #000;
+  }
+  /* line 356, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto .uber_auto {
+    width: 290px;
+    margin-top: 35px;
+  }
+  /* line 360, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto_descr {
+    margin-top: 35px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  /* line 367, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .auto .black {
+    display: none;
+  }
+  /* line 370, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hidden-320 {
+    display: none;
+  }
+  /* line 376, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 379, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 382, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require {
+    padding: 25px;
+  }
+  /* line 385, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require_block {
+    margin: 30px 0 0 0;
+  }
+  /* line 388, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 391, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  /* line 395, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  /* line 400, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* line 403, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .world {
+    min-height: 360px;
+    padding: 25px 0 30px 0;
+  }
+  /* line 407, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .world_link {
+    width: 200px;
+    display: block;
+    bottom: 30px;
+    line-height: 15px;
+  }
+  /* line 412, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  footer {
+    padding: 25px 0 20px 0;
+  }
+  /* line 415, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_divider {
+    width: 253px;
+    margin: 0 auto;
+  }
+  /* line 419, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+  }
+  /* line 422, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 20px;
+  }
+  /* line 425, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 428, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 431, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  /* line 434, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_links {
+    width: 290px;
+  }
+  /* line 437, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_links_main {
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 441, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_links_sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 445, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  /* line 448, ../../LaptopProjects/WebProjects/course2/2/src/sass/_media.sass */
+  .footer_links_lang {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

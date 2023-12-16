@@ -1,0 +1,55 @@
+p {
+    color:teal;
+}
+.first_p {
+    color:darkgoldenrod;
+}
+.fontClass {
+    /* font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: oblique; */
+    font: italic 600 28px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textClass {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+/* body {
+    background-color: cornsilk;
+    background-image: url("/1/img/559e644bcd5d25f046cd340c5edaa357.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background: cornsilk url("/1/img/559e644bcd5d25f046cd340c5edaa357.jpg") repeat-x center top;
+} */
+
+div {
+    width: 200px;
+    height: 250px;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+.borderClass {
+    /* border-width: 2px;
+    border-style: solid;
+    border-top-color: aquamarine;
+    border-bottom-color: deepskyblue;
+    border-left-color: red;
+    border-right-color: blueviolet; */
+
+    border: 2px solid #f00;
+
+    padding: 20px 20px 20px 40px;
+    margin: 30px auto 40px auto; /* center */
+
+    width: 400px;
+
+    /* ширина = width + padding l/r + border l/r = 400 + 20 + 40 + 2 + ...*/
+
+    box-sizing: border-box;     /* свойство для нормальной ширины рамки */
+}
